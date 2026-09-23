@@ -1,0 +1,15 @@
+To run the C compiler:
+	g++ -o loop loop.cpp
+To run the program:
+	./loop
+To see the assembly listing:
+	g++ -c -S loop.cpp
+To see the assembly listing with debug:
+	g++ -g -c -S loop.cpp
+To see the assembly listing with debug and optimization:
+	g++ -g -c -S -O3 loop.cpp
+To see the assembly listing without debug and with optimization:
+	g++ -c -S -O3 loop.cpp
+
+You should see the optimizer remove all unnecessary code (the loop)
+when you use the last command.

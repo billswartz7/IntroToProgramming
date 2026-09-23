@@ -1,0 +1,4 @@
+To run the rust compiler:
+	rustc -o first first.rs
+To run the program:
+	./first

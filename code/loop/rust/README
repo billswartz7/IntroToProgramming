@@ -1,0 +1,16 @@
+To run the rust compiler:
+	rustc -o loop loop.rs
+To run the program:
+	./loop
+
+To see the assembly listing:
+	rustc --emit=asm loop.rs
+To see the assembly listing with debug:
+	rustc -g --emit=asm loop.rs
+To see the assembly listing with debug and optimization:
+	rustc -g --emit=asm -C opt-level=3 loop.rs
+To see the assembly listing without debug and with optimization:
+	rustc --emit=asm -C opt-level=3 loop.rs
+
+You should see be able to see that the optimizer is not as good
+as plain C but it does give you error checking.

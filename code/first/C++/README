@@ -1,0 +1,12 @@
+To run the C++ compiler:
+	g++ -o first first.c
+You should get compile errors
+You need to fix the code by entering the
+editor of your choice and uncomment the
+include <iostream> line
+
+After you do that, you the file will compile
+After a successful compile,
+
+To run the program:
+	./first

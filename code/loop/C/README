@@ -1,0 +1,15 @@
+To run the C compiler:
+	gcc -o loop loop.c
+To run the program:
+	./loop
+To see the assembly listing:
+	gcc -c -S loop.c
+To see the assembly listing with debug:
+	gcc -g -c -S loop.c
+To see the assembly listing with debug and optimization:
+	gcc -g -c -S -O3 loop.c
+To see the assembly listing without debug and with optimization:
+	gcc -c -S -O3 loop.c
+
+You should see the optimizer remove all unnecessary code (the loop)
+when you use the last command.

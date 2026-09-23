@@ -1,0 +1,4 @@
+To run the C compiler:
+	gcc -o first first.c
+To run the program:
+	./first
