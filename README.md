@@ -1,7 +1,11 @@
 # IntroToProgramming
 #
 
-Click on any lecture below to view the PDF directly inside GitHub:
+Click on the LINK to visit the Pages view of this repository:
+[Visit GitHub Pages](https://billswartz7.github.io/IntroToProgramming "Go to GitHub's Pages view")
+
+
+Click on any lecture below to view the PDF directly inside GitHub to use the builtin GitHub viewer:
 
 # Course Lecture Notes
 
